@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NETFLIX CLONE</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    <div class="nav">
+        <img src="../Images/logo4.png" class="logo">
+        <img src="../Images/avatar 1.png" class="avatar">
+    </div>
+
+    <div class="banner">
+        <div class="contents">
+            <div class="search">
+                <input type="text" id="searchBar" placeholder="Search..." oninput="searchPosters()">
+                <img src="../Images/search icon.png" id="icon">
+            </div>    
+            <h1 class="title">Money Heist</h1>
+            <div class="buttons">
+                <button class="b_button">Play</button>
+                <button class="b_button">My List</button>
+            </div>
+            <div class="description">
+                A criminal mastermind who goes by "The Professor" has a plan to pull off the biggest heist in recorded history -- to print billions of euros in the Royal Mint of Spain. To help him carry out the ambitious plan, he recruits eight people with certain abilities and who have nothing to lose.
+            </div>
+        </div>
+        <div class="fade"></div>
+    </div>
+    <br>
+
+    <!-- Netflix -->
+    <div class="row">
+        <h2>Top Picks For You</h2>
+        <div class="posters">
+            <img src="../Images/small 1.jpg" class="poster large">
+            <img src="../Images/small 2.jpg" class="poster large">
+            <img src="../Images/small 3.jpg" class="poster large">
+            <img src="../Images/small 4.jpg" class="poster large">
+            <img src="../Images/small 5.jpg" class="poster large">
+            <img src="../Images/small 6.jpg" class="poster large">
+            <img src="../Images/small 7.jpg" class="poster large">
+            <img src="../Images/small 8.jpg" class="poster large">
+            <img src="../Images/large 1.jpg" class="poster large">
+            <img src="../Images/large 2.jpg" class="poster large">
+            <img src="../Images/large 3.jpg" class="poster large">
+            <img src="../Images/large 4.jpg" class="poster large">
+            <img src="../Images/large 5.jpg" class="poster large">
+            <img src="../Images/large 6.jpg" class="poster large">
+            <img src="../Images/large 7.jpg" class="poster large">
+            <img src="../Images/large 8.jpg" class="poster large">            
+        </div>
+    </div>
+    <!-- Trendings -->
+    <div class="row">
+        <h2>Trendings</h2>
+        <div class="posters">
+            <img src="../Images/large 1.jpg" class="poster">
+            <img src="../Images/large 2.jpg" class="poster">
+            <img src="../Images/large 3.jpg" class="poster">
+            <img src="../Images/large 4.jpg" class="poster">
+            <img src="../Images/large 5.jpg" class="poster">
+            <img src="../Images/large 6.jpg" class="poster">
+            <img src="../Images/large 7.jpg" class="poster">
+            <img src="../Images/large 8.jpg" class="poster">
+            <img src="../Images/small 1.jpg" class="poster">
+            <img src="../Images/small 2.jpg" class="poster">
+            <img src="../Images/small 3.jpg" class="poster">
+            <img src="../Images/small 4.jpg" class="poster">
+            <img src="../Images/small 5.jpg" class="poster">
+            <img src="../Images/small 6.jpg" class="poster">
+            <img src="../Images/small 7.jpg" class="poster">
+            <img src="../Images/small 8.jpg" class="poster">
+        </div>
+    </div>
+    <!-- Top Rated -->
+    <div class="row">
+        <h2>Top Rated</h2>
+        <div class="posters">
+            <img src="../Images/top rated1.jpg" class="poster">
+            <img src="../Images/top2.jpg" class="poster">
+            <img src="../Images/top3.jpg" class="poster">
+            <img src="../Images/large 1.jpg" class="poster">
+            <img src="../Images/large 2.jpg" class="poster">
+            <img src="../Images/large 3.jpg" class="poster">
+            <img src="../Images/large 8.jpg" class="poster">
+            <img src="../Images/large 5.jpg" class="poster">
+            <img src="../Images/top s1.jpg" class="poster">
+            <img src="../Images/top s2.jpg" class="poster">
+            <img src="../Images/top s3.jpg" class="poster">
+            <img src="../Images/top s4.jpg" class="poster">
+            <img src="../Images/small 4.jpg" class="poster">
+            <img src="../Images/small 3.jpg" class="poster">
+            <img src="../Images/small 2.jpg" class="poster">
+            <img src="../Images/small 1.jpg" class="poster">
+        </div>
+    </div>
+    <!-- Action Movies -->
+    <div class="row">
+        <h2>Action Movies</h2>
+        <div class="posters">
+            <img src="../Images/action2.jpg" class="poster">
+            <img src="../Images/action1.jpg" class="poster">
+            <img src="../Images/large 8.jpg" class="poster">
+            <img src="../Images/action3.jpg" class="poster">
+            <img src="../Images/large 5.jpg" class="poster">
+            <img src="../Images/action4.jpg" class="poster">
+            <img src="../Images/large 7.jpg" class="poster">
+            <img src="../Images/action 5.jpg" class="poster">
+            <img src="../Images/small 1.jpg" class="poster">
+            <img src="../Images/action s1.jpg" class="poster">
+            <img src="../Images/action s2.jpg" class="poster">
+            <img src="../Images/action s3.jpg" class="poster">
+            <img src="../Images/small 5.jpg" class="poster">
+            <img src="../Images/action s4.jpg" class="poster">
+            <img src="../Images/small 7.jpg" class="poster">
+            <img src="../Images/action s5.jpg" class="poster">
+        </div>
+    </div>
+    <!-- Comedy Movies -->
+    <div class="row">
+        <h2>Comedy Movies</h2>
+        <div class="posters">
+            <img src="../Images/cmdy1.jpg" class="poster">
+            <img src="../Images/large 2.jpg" class="poster">
+            <img src="../Images/cmdy2.jpg" class="poster">
+            <img src="../Images/large 4.jpg" class="poster">
+            <img src="../Images/cmdy3.jpg" class="poster">
+            <img src="../Images/large 6.jpg" class="poster">
+            <img src="../Images/cmdy4.jpg" class="poster">
+            <img src="../Images/large 8.jpg" class="poster">
+            <img src="../Images/cd s1.jpg" class="poster">
+            <img src="../Images/small 2.jpg" class="poster">
+            <img src="../Images/cd s2.jpg" class="poster">
+            <img src="../Images/small 4.jpg" class="poster">
+            <img src="../Images/cd s3.jpg" class="poster">
+            <img src="../Images/small 6.jpg" class="poster">
+            <img src="../Images/cd s4.jpg" class="poster">
+            <img src="../Images/small 8.jpg" class="poster">
+        </div>
+    </div>
+    <!-- Horror Movies -->
+    <div class="row">
+        <h2>Horror Movies</h2>
+        <div class="posters">
+            <img src="../Images/horror1.jpg" class="poster">
+            <img src="../Images/horror2.jpg" class="poster">
+            <img src="../Images/horror3.jpg" class="poster">
+            <img src="../Images/horror4.jpg" class="poster">
+            <img src="../Images/horror5.jpg" class="poster">
+            <img src="../Images/horror6.jpg" class="poster">
+            <img src="../Images/horror7.jpg" class="poster">
+            <img src="../Images/large 2.jpg" class="poster">
+            <img src="../Images/hr1.jpg" class="poster">
+            <img src="../Images/hr2.jpg" class="poster">
+            <img src="../Images/hr3.jpg" class="poster">
+            <img src="../Images/hr4.jpg" class="poster">
+            <img src="../Images/hr5.jpg" class="poster">
+            <img src="../Images/hr6.jpg" class="poster">
+            <img src="../Images/hr7.jpg" class="poster">
+            <img src="../Images/hr8.jpg" class="poster">
+        </div>
+    </div>
+    <!-- Romantic Movies -->
+    <div class="row">
+        <h2>Romantic Movies</h2>
+        <div class="posters">
+            <img src="../Images/rom1.jpg" class="poster">
+            <img src="../Images/rom2.jpg" class="poster">
+            <img src="../Images/rom3" class="poster">
+            <img src="../Images/rom4.jpg" class="poster">
+            <img src="../Images/rom5.jpg" class="poster">
+            <img src="../Images/rom6.jpg" class="poster">
+            <img src="../Images/rom7.jpg" class="poster">
+            <img src="../Images/rom8.jpg" class="poster">
+            <img src="../Images/rm1.jpg" class="poster">
+            <img src="../Images/rm2.jpg" class="poster">
+            <img src="../Images/rm3.jpg" class="poster">
+            <img src="../Images/rm4.jpg" class="poster">
+            <img src="../Images/rm5.jpg" class="poster">
+            <img src="../Images/rm6.jpg" class="poster">
+            <img src="../Images/rm7.jpg" class="poster">
+            <img src="../Images/rm8.jpg" class="poster">
+        </div>
+    </div>
+    <!-- Documentaries -->
+    <div class="row">
+        <h2>Documentaries</h2>
+        <div class="posters">
+            <img src="../Images/doc1.jpg" class="poster">
+            <img src="../Images/doc2.jpg" class="poster">
+            <img src="../Images/doc3.jpg" class="poster">
+            <img src="../Images/doc4.jpg" class="poster">
+            <img src="../Images/doc5.jpg" class="poster">
+            <img src="../Images/doc6.jpg" class="poster">
+            <img src="../Images/doc7.jpg" class="poster">
+            <img src="../Images/doc8.jpg" class="poster">
+            <img src="../Images/dc1.jpg" class="poster">
+            <img src="../Images/dc2.jpg" class="poster">
+            <img src="../Images/dc3.jpg" class="poster">
+            <img src="../Images/dc4.jpg" class="poster">
+            <img src="../Images/dc5.jpg" class="poster">
+            <img src="../Images/dc6.jpg" class="poster">
+            <img src="../Images/dc7.jpg" class="poster">
+            <img src="../Images/dc8.jpg" class="poster">
+        </div>
+    </div>
+    <!-- <script src="../JS/script.js"></script> -->
+</body>
+</html>
